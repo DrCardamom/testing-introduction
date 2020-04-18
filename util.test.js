@@ -5,8 +5,6 @@ const { generateText, checkAndGenerate } = require('./util');
 test('should output name and age', () => {
    const text = generateText('Shimba', 28)
    expect(text).toBe('Shimba (28 years old)')
-   const text2 = generateText('Roxi', 26)
-   expect(text2).toBe('Roxi (26 years old)')
 })
 
 // Another unit test against generateText()
@@ -36,7 +34,7 @@ test('should output the validated information on browser', async () => {
    const page = await browser.newPage();
 
    // Step3: tell this test what to do
-   await page.goto('file:///home/shimba/js-testing-introduction/index.html')
+   await page.goto('file:///home/shimba/testing-introduction/index.html')
    await page.click('input#name')
    await page.type('input#name', 'Anna')
    await page.click('input#age')
