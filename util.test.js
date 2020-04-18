@@ -10,7 +10,7 @@ test('should output name and age', () => {
 // Another unit test against generateText()
 test('should output data-less text', () => {
    const output = generateText('', null);
-   expect(output).toBe(' (null years old)');
+   expect(output).toBe(' (null years old)')
 }) 
 
 
@@ -26,8 +26,8 @@ test('should output the validated information on browser', async () => {
    // Step1: Create a browser
    const browser = await puppeteer.launch({
       headless: false, 
-      slowMo: 30,
-      // args: ['--window-size=1920,1080']
+      slowMo: 50,
+      args: ['--window-size=1920,1080']
    })
 
    // Step2: create 'page object'
@@ -45,4 +45,4 @@ test('should output the validated information on browser', async () => {
    const finalText = await page.$eval('.user-item', el => el.textContent)
    expect(finalText).toBe('Anna (28 years old)')
 
-}, 10000)
+}, 10000);
