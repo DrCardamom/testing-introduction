@@ -1,7 +1,7 @@
 # testing-jest-intro
 Codebase I wrote to experiment with unit tests, integration tests, e2e tests using [Jest](https://jestjs.io/)
 
-<iframe src='https://gfycat.com/ifr/ChubbyPoliteIggypops' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+![Testing Demo](testing.gif)
 
 ## installation 
 ```
