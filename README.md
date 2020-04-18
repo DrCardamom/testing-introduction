@@ -1,5 +1,5 @@
 # testing-introduction
-JavaScript testing (unit tests, integration tests, e2e tests) introduction following this tutorial: https://academind.com/learn/javascript/javascript-testing-introduction
+Codebase I wrote to experiment with unit tests, integration tests, e2e tests.
 
 ## installation 
 ```
