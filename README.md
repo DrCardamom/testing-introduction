@@ -1,7 +1,7 @@
 # testing-jest-intro
 Codebase I wrote to experiment with unit tests, integration tests, e2e tests using [Jest](https://jestjs.io/)
 
-![Testing Demo](testing.gif)
+![Testing Demo](https://thumbs.gfycat.com/HairyDefenselessBergerpicard-small.gif)
 
 ## installation 
 ```
