@@ -1,4 +1,4 @@
-# testing-introduction
+# testing-jest-intro
 Codebase I wrote to experiment with unit tests, integration tests, e2e tests using [Jest](https://jestjs.io/)
 
 ## installation 
