@@ -1,8 +1,5 @@
 # testing-introduction
-Codebase I wrote to experiment with unit tests, integration tests, e2e tests.
-
-## tech used 
-[Jest](https://jestjs.io/)
+Codebase I wrote to experiment with unit tests, integration tests, e2e tests using [Jest](https://jestjs.io/)
 
 ## installation 
 ```
